@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
        String sValor = JOptionPane.showInputDialog("Digite um número inteiro:");
         double valor = Double.parseDouble(sValor);
             //elevando ao quadrado
-        Double resultado = Math.pow(numero, 2);
+        Double resultado = Math.pow(valor, 2);
           //exibir
    JOptionPane.showMessageDialog(null, “O numero ao quadrado é:” + resultado);
    }
