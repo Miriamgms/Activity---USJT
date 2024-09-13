@@ -1,6 +1,6 @@
 //exercicio aula 01 - 1g
 import javax.swing.JOptionPane;
-  public class Solucao1G
+  public class Solucao1g
 {
   public static void main(String[] args)
   {
