@@ -8,7 +8,8 @@ import javax.swing.JOptionPane;
      String sInteiro = JOptionPane.showInputDialog
        ("Digite um número inteiro (ex: 123):");
         // Guardar e exibir valor
-         JOptionPane.showMessageDialog(null,"Numero = " + sInteiro);
+       int inteiro = Integer.parseInt(sInteiro);
+           JOptionPane.showMessageDialog(null,"Numero = " + sInteiro);
          }
         } 
 
