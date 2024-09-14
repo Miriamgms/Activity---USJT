@@ -7,6 +7,6 @@ import javax.swing.JOptionPane;
       //Apresentando valor
      String speso = JOptionPane.showInputDialog("Digite seu peso em formato real:");
      //transforme em kg
-   System.out.println("Resultado = " + speso + "kg");
+   JOptionPane.showMessageDialog("Resultado = " + speso + "kg");
       }
      }
