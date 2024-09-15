@@ -7,8 +7,10 @@ import javax.swing.JOptionPane;
       //apresentar idade - P-D-U
        String sIdade = JOptionPane.showInputDialog("Digite sua idade:");
         int idade = integer.parseInt (sIdade);
+JOptionPane.showInputDialog("Digite quantos dias tem no ano:");
+        int dias = integer.parseInt (sDias);
             //inteiro calcular
-        int diasVividos = idade * 365;
+        int diasVividos = idade * dias;
           //exibição
    JOptionPane.showMessageDialog(null, "você viveu aproximadamente " + diasVividos +  “dias.”);
    }
