@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
      String str2 = JOptionPane.showInputDialog(“Digite a segunda palavra:”);
      String str3 = JOptionPane.showInputDialog(“Digite a terceira palavra:”);
     //somando os comprimentos das strings
-    Int comprimentoT = str1.length() + str2.length() + str3.length();
+    int comprimentoT = str1.length() + str2.length() + str3.length();
    //exibindo resultado
       JOptionPane.showMessageDialog(null, “O comprimento total das strings é:” + comprimentoTotal);
    }
