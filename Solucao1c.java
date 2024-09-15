@@ -9,6 +9,6 @@ import javax.swing.JOptionPane;
      String dp2 = JOptionPane.showInputDialog("Digite um mês do ano:");
      String dp3 = JOptionPane.showInputDialog("Digite o ano:");
      //transforme em data de barras
-   JOptionPane.showMessageDialog("null, Data = " + dp1 + "/" + dp2 + "/" + dp3);
+   JOptionPane.showMessageDialog(null, " Data = " + dp1 + "/" + dp2 + "/" + dp3);
       }
      }
