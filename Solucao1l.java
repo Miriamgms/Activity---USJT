@@ -1,6 +1,6 @@
 //exercicio aula 01 - 12
 import javax.swing.JOptionPane;
-  public class AlgarismoDezena
+  public class Solucao1l
 {
      public static void main(String[] args) 
      {
