@@ -1,4 +1,4 @@
-//exercicio aula 01 - 1g
+//exercicio aula 01 - '7'
 import javax.swing.JOptionPane;
   public class Solucao1g
 {
