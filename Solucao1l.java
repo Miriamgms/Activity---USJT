@@ -1,4 +1,4 @@
-//exercicio aula 01
+//exercicio aula 01 - 12
 import javax.swing.JOptionPane;
   public class AlgarismoDezena
 {
