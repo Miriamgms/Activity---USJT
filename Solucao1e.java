@@ -1,4 +1,4 @@
-//exercicio aula 01 - 5A
+//exercicio aula 01 - 5
   public class Solucao1e
 {
   public static void main(String[] args)
