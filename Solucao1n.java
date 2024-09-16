@@ -4,16 +4,16 @@ import javax.swing.JOptionPane;
 public class Solucao1N
 {
     public static void main(String[] args) {
-        // Exibe uma caixa de diálogo para o usuário inserir um número
+        // Solicitando número
         String input = JOptionPane.showInputDialog(null, "Digite um número:");
 
-        // Verifica se o usuário forneceu uma entrada
+        // confirmar recebimento para prosseguir
         if (input != null && !input.trim().isEmpty()) {
             try {
-                // Converte a entrada para um número double
+                // Converte a entrada para double
                 double numero = Double.parseDouble(input);
 
-                // Verifica se o número é maior que zero
+                // Verifica se o número é > que zero
                 if (numero > 0) {
                     // Calcula o logaritmo na base 10
                     double logaritmoBase10 = Math.log10(numero);
@@ -34,3 +34,6 @@ public class Solucao1N
         }
     }
 }
+
+//Se a conversão da entrada para double falhar (por exemplo, se a entrada não for um número válido)
+//uma exceção NumberFormatException é capturada e uma mensagem de erro é exibida
