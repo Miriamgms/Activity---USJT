@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
       //leitura de valor
        String sValor = JOptionPane.showInputDialog("Digite um número inteiro:");
        int valor = Integer.parseInt (sValor);
-       
+       double quadrado = Math.pow(valor, 2);
      //System.out.println ( "O valor digitado ao quadrado = " + Math.pow(valor,2));    
      JOptionPane.showMessageDialog (null, "O valor digitado ao quadrado = " + Math.pow(valor,2));
    }
