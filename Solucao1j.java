@@ -1,4 +1,4 @@
-//exercicio aula 01 - //exercicio aula 01 - Operadores Aritméticos, Expressões Aritméticas e Strings'10'
+//exercicio aula 01 - Operadores Aritméticos, Expressões Aritméticas e Strings'10'
 import javax.swing.JOptionPane;
   public class Solucao1j
 {
