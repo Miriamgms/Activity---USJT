@@ -4,15 +4,22 @@ import javax.swing.JOptionPane;
 {
   public static void main(String[] args)
   {
-     //lendo as três palavras
-     String str1 = JOptionPane.showInputDialog(“Digite a primeira palavra:”);
-     String str2 = JOptionPane.showInputDialog(“Digite a segunda palavra:”);
-     String str3 = JOptionPane.showInputDialog(“Digite a terceira palavra:”);
-    //somando os comprimentos das strings
-    int comprimentoT = str1.length() + str2.length() + str3.length();
-   //exibindo resultado
-      JOptionPane.showMessageDialog(null, “O comprimento total das strings é:” + comprimentoTotal);
-   }
+   //digitando string
+        String sPalavra = JOptionPane.showInputDialog(null, "Digite a primeira string:");
+        String sPalavr = JOptionPane.showInputDialog(null, "Digite a segunda string:");
+        String sPalav = JOptionPane.showInputDialog(null, "Digite a terceira string:");
+
+        // Calcula o comprimento de cada string
+        int medida1 = sPalavra.length();
+        int medida2 = sPalavr.length();
+        int medida3 = sPalav.length();
+
+        // Soma os comprimentos das três strings
+        int comprimentos = medida1 + medida2 + medida3;
+
+        // Exibe o resultado em um diálogo
+        JOptionPane.showMessageDialog(null, "A soma dos comprimentos das strings é " + comprimentos);
+    }
 }
 
 //anotações:length : A propriedade length em Java é utilizada para retornar a quantidade de caracteres de uma string ou o tamanho de um array1234. 
