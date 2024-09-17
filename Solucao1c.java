@@ -1,4 +1,6 @@
-//exercicio aula 01 - '3'
+/*exercicio 3 Aula: 01
+Estrutura básica de um programa Java, Entrada e Saída, Variáveis, Atribuição,
+Conversão de Strings*/
 import javax.swing.JOptionPane;
     public class Solucao1c
   {
