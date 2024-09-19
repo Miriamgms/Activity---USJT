@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
             //convertendo para real
       double valorDoInicio = Double.parseDouble(sValorDoInicio);
       double juros = Double.parseDouble(sJuros);
-      Int meses = integer.parseInt(sMeses);
+      int meses = Integer.parseInt(sMeses);
           //calculando
        double valorFinal = valorDoInicio * Mathpow(1 + juros / 100, meses);
        //apresentando o resultado
