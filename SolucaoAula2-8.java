@@ -5,8 +5,11 @@ public class Solucao8
 {
     public static void main(String[] args) 
     {
-        int num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro número:"));
-        int num2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo número:"));
+        String sNum1 = JOptionPane.showInputDialog("Digite um número:");
+        String sNum2 = JOptionPane.showInputDialog("Digite um número:");
+        
+        int num1 = Integer.parseInt(sNum1);
+        int num2 = Integer.parseInt(sNum2);
        //convertendo números em int e aplicando no if para válidar condição
         if (num1 > num2) 
         {
@@ -18,3 +21,4 @@ public class Solucao8
         }
     }
 }
+
