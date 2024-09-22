@@ -12,7 +12,7 @@ public class Solucao8
         {
             JOptionPane.showMessageDialog(null, "O maior número é: " + num1);
         } 
-        else
+        if (num1 < num2)
          {
             JOptionPane.showMessageDialog(null, "O maior número é: " + num2);
         }
