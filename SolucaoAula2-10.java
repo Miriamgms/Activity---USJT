@@ -9,7 +9,7 @@ public class Solucao10
     //convertendo para int
         int numero = Integer.parseInt(sNumero);
   
-        if (numero % 5 == 0) 
+        if (numero  %  5  ==  0) 
         {
             JOptionPane.showMessageDialog(null, numero + " é divisível por 5.");
         } 
