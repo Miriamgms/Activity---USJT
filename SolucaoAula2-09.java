@@ -9,7 +9,7 @@ public class Solucao9
      //convertendo para int
         int numero = Integer.parseInt(sNumero);
      // utilizando if e else para válidar condição
-        if (numero % 3 == 0) 
+        if (numero  %  3  ==  0) 
         {
             JOptionPane.showMessageDialog(null, numero + " é múltiplo de 3.");
         } 
