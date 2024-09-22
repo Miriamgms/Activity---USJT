@@ -20,3 +20,6 @@ import javax.swing.JOptionPane;
         }
     }
 }
+
+
+/*anotações: a função Math.sqrt() em Java é usada para calcular a raiz quadrada de um número. Por exemplo, Math.sqrt(25) retornará 5.0, pois a raiz quadrada de 25 é 5.*/
