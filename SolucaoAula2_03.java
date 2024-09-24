@@ -1,8 +1,8 @@
 /* Aula: 02 Desvio Condicional if, if–else, if–else if–else; Operadores Relacionais e Operadores Lógicos */
 import javax.swing.JOptionPane;
 
- public class Solucao3 
-{
+ public class SolucaoAula2_03 
+ {
     public static void main(String[] args) 
     {
         String num = JOptionPane.showInputDialog("Digite um número:");
