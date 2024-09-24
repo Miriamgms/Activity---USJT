@@ -1,6 +1,5 @@
 /*Aula: 03
-Estruturas de Repetição: laços while, do-while e for
-import javax.swing.JOptionPane;*/
+Estruturas de Repetição: laços while, do-while e for*/
 import javax.swing.JOptionPane;
 
 public class Solucao3 {
