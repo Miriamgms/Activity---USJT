@@ -1,7 +1,7 @@
 /* Aula: 02 Desvio Condicional if, if–else, if–else if–else; Operadores Relacionais e Operadores Lógicos */
 import javax.swing.JOptionPane;
 
-public class Solucao200 
+public class SolucaoAula2_20 
 {
     public static void main(String[] args) 
     {
