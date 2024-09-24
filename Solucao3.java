@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+
+public class Solucao3 {
+    public static void main(String[] args) {
+       int soma = 0;
+       int quantidadeDeNumeros = 5;
+       for ( int i = 1; i <= quantidadeDeNumeros; i++) 
+       {
+         String palavra = JOptionPane.showInputDialog("Digite um número");
+         int numero = Integer.parseInt(palavra);
+         soma += numero;
+       }
+         int media = soma/quantidadeDeNumeros;
+        JOptionPane.showMessageDialog(null, "A média dos números apresentados: " + media);
+    
+    }
+}
