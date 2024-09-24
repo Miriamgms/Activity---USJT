@@ -2,7 +2,7 @@
 Estruturas de Repetição: laços while, do-while e for*/
 import javax.swing.JOptionPane;
 
-public class Solucao03 {
+public class Solucao02 {
 
     public static void main(String[] args) {
         int i = 1;
