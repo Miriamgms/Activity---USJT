@@ -2,7 +2,7 @@
 
 import javax.swing.JOptionPane;
 
-public class Solucao15 
+public class SolucaoAula2_15
 {
     public static void main(String[] args) 
     {
