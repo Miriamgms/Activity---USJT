@@ -15,12 +15,12 @@ public class SolucaoAula2_24
             String snumeros = JOptionPane.showInputDialog("Digite o " + i + "º número:");
             int numero = Integer.parseInt(snumeros);
 
-            // Verificar se é o maior
+           //if maior
             if (numero > maior) 
             {
                 maior = numero;
             }
-            // Verificar se é o menor
+          //if menor
             if (numero < menor) 
             {
                 menor = numero;
@@ -30,7 +30,7 @@ public class SolucaoAula2_24
       }
    }
 
-
+//\n para pular a linha
 /*Sobre o FOR: O loop permite que o programa solicite ao usuário que insira cinco números, um por vez. 
 Após cada entrada, ele processa o número para verificar se é o maior ou o menor até aquele momento. 
 Assim, o for é fundamental para repetir a solicitação de entrada e as comparações.*/
