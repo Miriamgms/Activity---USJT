@@ -1,3 +1,6 @@
+/*Aula: 03
+Estruturas de Repetição: laços while, do-while e for*/
+
 import javax.swing.JOptionPane;
 
 public class SolucaoAula2_24
@@ -21,12 +24,11 @@ public class SolucaoAula2_24
             if (numero < menor) 
             {
                 menor = numero;
-            }
-        }
+            }}
 
         JOptionPane.showMessageDialog(null, "O maior número é: " + maior + "\nO menor número é: " + menor);
-    }
-}
+      }
+   }
 
 
 /*Sobre o FOR: O loop permite que o programa solicite ao usuário que insira cinco números, um por vez. 
