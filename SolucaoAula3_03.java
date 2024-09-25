@@ -1,6 +1,9 @@
+/*Aula: 03
+Estruturas de Repetição: laços while, do-while e for*/
 import javax.swing.JOptionPane;
 
-public class Solucao3 {
+public class SolucaoAula3_03 
+{
     public static void main(String[] args) {
        int soma = 0;
        int quantidadeDeNumeros = 5;

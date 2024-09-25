@@ -15,3 +15,4 @@ public class SolucaoAula3_05 {
         JOptionPane.showMessageDialog(null, "Programa encerrado.");
     }
 }
+ // Equals sistema de comparação

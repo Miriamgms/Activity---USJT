@@ -1,7 +1,7 @@
 /* Aula: 02 Desvio Condicional if, if–else, if–else if–else; Operadores Relacionais e Operadores Lógicos */
 import javax.swing.JOptionPane;
 
-public class Solucao8 
+public class SolucaoAula2_17
 {
     public static void main(String[] args) 
     {
@@ -11,14 +11,13 @@ public class Solucao8
         int num1 = Integer.parseInt(sNum1);
         int num2 = Integer.parseInt(sNum2);
        //convertendo números em int e aplicando no if para válidar condição
-        if (num1 > num2) 
+        if (num1 < num2) 
         {
-            JOptionPane.showMessageDialog(null, "O maior número é: " + num1);
+            JOptionPane.showMessageDialog(null, "O menor número é: " + num1);
         } 
-        if (num1 < num2)
+        if (num1 > num2)
          {
-            JOptionPane.showMessageDialog(null, "O maior número é: " + num2);
+            JOptionPane.showMessageDialog(null, "O menor número é: " + num2);
         }
     }
 }
-
