@@ -8,11 +8,11 @@ public class SolucaoAula3_15
         int numero;
 
         while (true) {
-            // Solicita um número ao usuário
-            String input = JOptionPane.showInputDialog("Digite um número (-9999 para sair):");
+            // entrada de dados
+            String escrita = JOptionPane.showInputDialog("Digite um número (-9999 para sair):");
             
             // Verifica se o usuário cancelou a entrada
-            if (input == null) {
+            if (escrita == null) {
                 break;
             }
 
