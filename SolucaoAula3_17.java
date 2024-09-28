@@ -18,8 +18,8 @@ public class SolucaoAula3_17
         // Cria um StringBuilder para armazenar e montar a tabela
         StringBuilder tabela = new StringBuilder();
         tabela.append(String.format("%-12s %-12s%n", "Polegadas", "Centímetros"));
-         //STRING FORMAT para modelar tabela () modelagem de apresentação
-        tabela.append("-----------------------\n");
+         //modelando a tabela com string format
+        tabela.append("♥------------♥------------♥\n");
         // ----- adicona uma linha separadora à tabela
 
         // Adiciona os valores à tabela
