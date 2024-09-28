@@ -18,10 +18,7 @@ public class SolucaoAula3_17
         // Cria um StringBuilder para armazenar e montar a tabela
         StringBuilder tabela = new StringBuilder();
         tabela.append(String.format("%-12s %-12s%n", "Polegadas", "Centímetros"));
-         /*%12s e %12s indica Esses formatos especificam que as strings
-          (neste caso, "Polegadas" e "Centímetros")
-         devem ocupar 12 caracteres(char) de largura. 
-         E o "-" indica que o texto deve ser alinhado à esquerda.*/
+         //STRING FORMAT para modelar tabela () modelagem de apresentação
         tabela.append("-----------------------\n");
         // ----- adicona uma linha separadora à tabela
 
