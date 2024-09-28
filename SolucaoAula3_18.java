@@ -46,3 +46,8 @@ public class SolucaoAula3_18
         JOptionPane.showMessageDialog(null, tabela.toString(), "Tabela de Conversão", JOptionPane.INFORMATION_MESSAGE);
     }
 }
+
+
+
+/*conta de conversão:
+ F=(C×9/5)+32 */
