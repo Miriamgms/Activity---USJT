@@ -2,6 +2,9 @@
 Estruturas de Repetição: laços while, do-while e for*/
 
 import javax.swing.JOptionPane;
+import javax.swing.UIManager;
+import java.awt.Color;
+
 public class SolucaoAula3_17
 {
     public static void main(String[] args) 
@@ -27,6 +30,12 @@ public class SolucaoAula3_17
         {
             tabela.append(String.format("%-12.2f %-12.2f%n", polegadas[i], centimetros[i]));
         }
+
+         // Define a cor de fundo do JOptionPane usando valores RGB para rosa claro
+        UIManager.put("Panel.background", new Color(237, 160, 222)); // Rosa claro
+        UIManager.put("OptionPane.background", new Color(237, 160, 222));
+        UIManager.put("Button.background", Color.LIGHT_GRAY); // Cor dos botões
+
         // Exibe a tabela em um diálogo
         JOptionPane.showMessageDialog(null, tabela.toString(), "Tabela de Conversão", JOptionPane.INFORMATION_MESSAGE);
 
