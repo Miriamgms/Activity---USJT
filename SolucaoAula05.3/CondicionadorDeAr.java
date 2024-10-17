@@ -10,48 +10,22 @@ public class CondicionadorDeAr {
         this.ligado = false; 
     }
 
-    // Métodos de acesso
-    public boolean isLigado() {
-        return ligado;
-    }
-
-    public Termostato getTermostato() {
-        return termostato;
-    }
-
     // Método para ligar o ar condicionado
     public void ligar() {
         ligado = true;
         JOptionPane.showMessageDialog(null, "Condicionador ligado.", "Estado", JOptionPane.INFORMATION_MESSAGE);
     }
 
-    // Método para desligar o ar condicionado
-    public void desligar() {
-        ligado = false;
-        JOptionPane.showMessageDialog(null, "Condicionador desligado.", "Estado", JOptionPane.INFORMATION_MESSAGE);
-    }
-
-    // Método para aumentar a temperatura
-    public void aumentarTemperatura() {
+    // Método modificador para ajustar a temperatura
+    public void setTermostato(double temperatura) {
         if (ligado) {
-            termostato.aumentarTemperatura();
-            JOptionPane.showMessageDialog(null, "Temperatura aumentada. Temperatura atual: " + termostato.getTemperatura() + " graus.", "Temperatura", JOptionPane.INFORMATION_MESSAGE);
+            termostato.setTemperatura(temperatura);
         } else {
-            JOptionPane.showMessageDialog(null, "Condicionador desligado. Não é possível aumentar a temperatura.", "Erro", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Condicionador desligado. Não é possível ajustar a temperatura.", "Erro", JOptionPane.ERROR_MESSAGE);
         }
     }
 
-    // Método para reduzir a temperatura
-    public void reduzirTemperatura() {
-        if (ligado) {
-            termostato.reduzirTemperatura();
-            JOptionPane.showMessageDialog(null, "Temperatura reduzida. Temperatura atual: " + termostato.getTemperatura() + " graus.", "Temperatura", JOptionPane.INFORMATION_MESSAGE);
-        } else {
-            JOptionPane.showMessageDialog(null, "Condicionador desligado. Não é possível reduzir a temperatura.", "Erro", JOptionPane.ERROR_MESSAGE);
-        }
-    }
-
-    // exibindo temperatura 
+    // Método exibir a temperatura
     public void imprimirTemperatura() {
         if (ligado) {
             JOptionPane.showMessageDialog(null, "Temperatura atual: " + termostato.getTemperatura() + " graus.", "Temperatura", JOptionPane.INFORMATION_MESSAGE);
@@ -60,4 +34,3 @@ public class CondicionadorDeAr {
         }
     }
 }
-
