@@ -25,7 +25,7 @@ return 2 * (largura + altura);
 
 //classe teste abaixo
 
-public class TesteRetangulo {
+public class Teste_Retangulo {
     public static void main(String[] args) {
         Retangulo retangulo = new Retangulo(5, 3);
         System.out.println("Área: " + retangulo.calcularArea());
