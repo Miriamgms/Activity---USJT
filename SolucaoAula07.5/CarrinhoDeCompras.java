@@ -21,11 +21,4 @@ public class CarrinhoDeCompras {
           return total;
     }
 
-    public String exibeItens() {
-        StringBuilder sb = new StringBuilder();
-        for (ItemCarrinho item : itens) {
-            sb.append(item.getDescricao()).append("\n");
-        }
-        return sb.toString();
-    }
-}
+   
