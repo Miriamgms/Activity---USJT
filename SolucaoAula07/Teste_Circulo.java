@@ -23,11 +23,20 @@ return 2 * Math.PI * raio;
 
 //classe teste abaixo
 
+import javax.swing.JOptionPane;
+
 public class Teste_Circulo {
-    public static void main(String[] args)
-  {
-        Circulo circulo = new Circulo(4);
-        System.out.println("Área: " + circulo.calcularArea());
-        System.out.println("Perímetro: " + circulo.calcularPerimetro());
+    public static void main(String[] args) {
+        String sRaio = JOptionPane.showInputDialog("Digite o raio do círculo:");
+        
+        double raio = Double.parseDouble(sRaio);
+        
+        Circulo circulo = new Circulo(raio);
+        
+        double area = circulo.calcularArea();
+        double perimetro = circulo.calcularPerimetro();
+        
+        String resultado = "Área: " + area + "\nPerímetro: " + perimetro;
+        JOptionPane.showMessageDialog(null, resultado, "Resultado do Círculo", JOptionPane.INFORMATION_MESSAGE);
     }
 }
