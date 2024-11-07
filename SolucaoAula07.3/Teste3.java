@@ -2,7 +2,7 @@
 
 import javax.swing.*;
 
-public class Teste2 {
+public class Teste3 {
 
     public static void main(String[] args) {
         Cachorro c = new Cachorro();
