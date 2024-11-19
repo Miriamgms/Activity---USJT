@@ -33,7 +33,7 @@ public class Tarefeiro extends Empregado {
         setSalario(this.valorPorTarefa * tarefasConcluidas); // Atualiza o salário
     }
 
-    @Override
+   
     public String dados() {
         return super.dados() + ", Valor por Tarefa: R$" + valorPorTarefa + ", Tarefas Concluídas: " + tarefasConcluidas;
     }
