@@ -73,7 +73,7 @@ public class TelaPessoaFisica extends JFrame implements ActionListener {
         atualizarCamposEspecificos();
     }
 
-    @Override
+    
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == cboTipoPessoa) {
             atualizarCamposEspecificos();
