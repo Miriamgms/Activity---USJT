@@ -45,7 +45,7 @@ public class Vendedor extends Empregado {
         setSalario(this.salarioBase + (this.comissaoPorVenda * vendasRealizadas)); // Atualiza o salário
     }
 
-    @Override
+   
     public String dados() {
         return super.dados() + ", Salário Base: R$" + salarioBase + ", Comissão por Venda: R$" + comissaoPorVenda + ", Vendas Realizadas: " + vendasRealizadas;
     }
