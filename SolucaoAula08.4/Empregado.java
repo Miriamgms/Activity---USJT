@@ -20,7 +20,7 @@ public class Empregado extends PessoaFisica {
         this.salario = salario;
     }
 
-    @Override
+    
     public String dados() {
         return super.dados() + ", Salário: R$" + salario;
     }
