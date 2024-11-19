@@ -32,7 +32,7 @@ public class Horista extends Empregado {
         setSalario(this.valorHora * horasTrabalhadas); // Atualiza o salário
     }
 
-    @Override
+    
     public String dados() {
         return super.dados() + ", Valor por Hora: R$" + valorHora + ", Horas Trabalhadas: " + horasTrabalhadas;
     }
