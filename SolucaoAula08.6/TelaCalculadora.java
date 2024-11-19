@@ -100,7 +100,7 @@ public class TelaCalculadora extends JFrame implements ActionListener {
         setVisible(true);
     }
 
-    @Override
+    
     public void actionPerformed(ActionEvent e) {
         String comando = e.getActionCommand();
         System.out.println(comando);
