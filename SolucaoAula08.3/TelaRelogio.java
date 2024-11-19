@@ -42,7 +42,7 @@ public class TelaRelogio extends JFrame implements ActionListener {
         setVisible(true);
     }
 
-    @Override
+   
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btnTicTac) {
             relogio.ticTac();
