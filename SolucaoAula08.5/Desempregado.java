@@ -20,7 +20,7 @@ public class Desempregado extends PessoaFisica {
         this.seguroDesemprego = seguroDesemprego;
     }
 
-    @Override
+
     public String dados() {
         return super.dados() + ", Seguro Desemprego: R$" + seguroDesemprego;
     }
