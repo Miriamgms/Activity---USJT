@@ -29,7 +29,7 @@ public class TelaTextoSimples {
 
         // Adicionando eventos aos botões
         btnMostrar.addActionListener(new ActionListener() {
-            @Override
+            
             public void actionPerformed(ActionEvent e) {
                 String texto = txtTexto.getText();
                 if (!texto.isEmpty()) {
@@ -41,7 +41,7 @@ public class TelaTextoSimples {
         });
 
         btnLimpar.addActionListener(new ActionListener() {
-            @Override
+         
             public void actionPerformed(ActionEvent e) {
                 txtTexto.setText("");
             }
