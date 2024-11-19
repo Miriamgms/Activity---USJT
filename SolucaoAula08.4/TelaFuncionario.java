@@ -81,7 +81,7 @@ public class TelaFuncionario extends JFrame implements ActionListener {
         setVisible(true);
     }
 
-    @Override
+
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == btnCriar) {
             String nome = txtNome.getText();
